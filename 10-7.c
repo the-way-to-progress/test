@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int a;
+    int m;
     int b;
     int sum=0;
     printf("请输入一个数：\n");
     scanf("%d", &b);
-    a = b;
-    while(a)
+    m = b;
+    while(m)
     {
-        sum = sum * 10 + a % 10;
-        a /= 10;
+        sum = sum * 10 + m % 10;
+        m /= 10;
     }
     if (sum==b)
         printf("yes\n");
