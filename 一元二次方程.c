@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 int main()
+/*
+犯的错误printf("a",b);前后之间要有逗号
+每个语句后面要有;
+scanf语句使用要有&
+*/
 {
     double a, b, c;
     double x1, x2;
